@@ -1,0 +1,5 @@
+# cache file
+./mypy_cache
+
+# make local environment file
+./make_env.sh
