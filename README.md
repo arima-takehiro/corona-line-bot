@@ -1,5 +1,5 @@
 # corona-line-bot
 
 # アーキテクチャ
-![corona-line-botのアーキテクチャ](corona-line-bot.png)
+![corona-line-botのアーキテクチャ](corona-line-bot-arc.png)
 
