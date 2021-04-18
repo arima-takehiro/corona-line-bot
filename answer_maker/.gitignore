@@ -1,8 +1,8 @@
 corona-line-bot-7e74b5375cca.json
 make_env.sh
+secret.txt
 
 ### https://raw.github.com/github/gitignore/218a941be92679ce67d0484547e3e142b2f5f6f0/Python.gitignore
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
