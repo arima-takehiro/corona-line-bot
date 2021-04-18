@@ -4,7 +4,7 @@
 
 都道府県名:   {jp_pref_name}
 検査陽性者(今まで):   {total_confirmed}
-今日の検査陽性者:  {newly_confirmed}
+今日の検査陽性者:  {newly_confirmed} (検査陽性者が0人の場合、まだデータが更新されていない可能性があります）
 昨日の検査陽性者:  {yesterday_confirmed}
 回復者:   {recovered}
 死者:   {deaths}

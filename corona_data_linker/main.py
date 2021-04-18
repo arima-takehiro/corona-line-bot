@@ -6,21 +6,9 @@ import logging
 
 
 # GCFのエントリーポイント
-def entry_point():
+def entry_point(event, context):
     logging_config()
     corona_data = data_getter.get_data()
     repo = DataStore()
     linker = data_linker.CoronaDataLinker(corona_data, repo=repo)
     linker.link()
-
-
-def main():
-    logging_config()
-    corona_data = data_getter.get_data()
-    repo = DataStore()
-    linker = data_linker.CoronaDataLinker(corona_data, repo=repo)
-    linker.link()
-
-
-if __name__ == '__main__':
-    main()
