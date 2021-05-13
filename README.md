@@ -14,3 +14,4 @@ This program is executed by webhook from LINE bot. This get today's corona data 
 
 # Secret Manager
 This holds the secret data like LINE chat-bot token.
+# ca-corona-line-bot
